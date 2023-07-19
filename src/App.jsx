@@ -31,6 +31,7 @@ const App = () => {
   };
   return (
     <div className="container text-center body ">
+      
       <h1 className="text-light mb-5 ">Weather App</h1>
       <input
         type="text"
