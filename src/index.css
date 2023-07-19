@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+}
+.body {
+  /* background-image: url("./image.jpg"); */
+  background-image: url("./image.jpg");
+  filter: opacity(1);
+  background-repeat: no-repeat, repeat;
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.card-body {
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 600px) {
+  .card-body {
+    font-size: 1rem;
+  }
+}
