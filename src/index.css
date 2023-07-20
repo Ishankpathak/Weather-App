@@ -4,17 +4,17 @@
   box-sizing: border-box;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: black;
-  background: rgb(171, 98, 220);
+  /* background: rgb(171, 98, 220); */
 }
 
 .card-body {
   font-size: 1.2rem;
-  background: rgb(238, 174, 202);
-  background: radial-gradient(
+  /* background: rgb(238, 174, 202); */
+  /* background: radial-gradient(
     circle,
     rgba(238, 174, 202, 1) 0%,
     rgba(148, 187, 233, 1) 100%
-  );
+  ); */
 }
 @media only screen and (max-width: 600px) {
   .card-body {

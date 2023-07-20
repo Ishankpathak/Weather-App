@@ -30,8 +30,16 @@ const App = () => {
     });
   };
   return (
-    <div className="container text-center body ">
-      
+    <div
+      className="container text-center body "
+      style={{
+        backgroundImage: "url(./image.jpg)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        height: "100vh",
+        width: "100vw",
+      }}
+    >
       <h1 className="text-light mb-5 ">Weather App</h1>
       <input
         type="text"
